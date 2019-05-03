@@ -1,10 +1,14 @@
 #main {
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 #img-div {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 #image {
     display: block;
@@ -16,6 +20,7 @@
 #img-caption {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-weight: bold;
 }
 h1 {
@@ -31,5 +36,8 @@ body {
 }
 
 #AccentColor {
+    color: #def85E;
+}
+#tribute-link {
     color: #def85E;
 }
