@@ -1,0 +1,35 @@
+#main {
+    display: flex;
+    
+}
+#img-div {
+    display: flex;
+    align-items: center;
+}
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    object-fit: none;
+}
+#img-caption {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+h1 {
+    font-family: 'Leckerli One', 'Times New Roman'; 
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+body {
+    background-color: #2b002b;
+    color: white;
+}
+
+#AccentColor {
+    color: #def85E;
+}
